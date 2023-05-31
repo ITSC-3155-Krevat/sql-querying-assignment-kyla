@@ -3,4 +3,5 @@ SELECT
 FROM
 	instructor
 WHERE
-	tenured = 1
+	tenured != 0
+;
